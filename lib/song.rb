@@ -1,5 +1,6 @@
 class Song 
 
+<<<<<<< HEAD
     attr_accessor :name, :artist, :genre #we want to read and write all three of these variable 
 
     @@count = 0 #these have the double @ signs because they are CLASS variables
@@ -48,6 +49,37 @@ class Song
             end
         end
         artist_count
+=======
+    attr_accessor :name, :artist, :genre
+
+    def initialize(name, artist, genre)
+        @name = name.Array
+        @artist = artist.Array
+        @genre = genre.Array
+        @@count = 0
+
+    def count
+        @name.each do 
+            @@count += 1
+    end
+
+    def artist
+        @@artists = []
+    end
+
+    def genres ()
+        @@genres = []
+
+
+    end
+
+    def genre_count
+
+    end
+
+    def artist_count
+
+>>>>>>> af5f0c614f5ec868f5f8587cf03a98c07754b792
     end
 
 end
